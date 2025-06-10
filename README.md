@@ -50,15 +50,15 @@ git clone https://github.com/NoemiDR24/Noemi-Portfolio-Backend.git
 cd Noemi-Portfolio-Backend
 ./mvnw spring-boot:run
 
-📦 Deployment
+## 📦 Deployment
  Render
 
-📨 Future Improvements
+## 📨 Future Improvements
 Send contact form messages via email (e.g., using Mailgun or SendGrid).
 
 Admin dashboard for managing messages and projects.
 
 Authentication for editing project list (optional).
 
-🤝 Contact
+## 🤝 Contact
 You can reach me via the contact form on my portfolio site or on [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/noemidelgadilloroldan/).
