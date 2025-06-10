@@ -12,20 +12,20 @@ This is the backend API for my personal portfolio website. It handles the contac
 - Maven
 
 ## 📂 Project Structure
-
+```text
 src/
 ├── main/
 │ ├── java/com/noemi.portfolio.backend/
 │ │ ├── controller/
-| | ├── dto/
-| | ├── exception/
+│ │ ├── dto/
+│ │ ├── exception/
 │ │ ├── model/
 │ │ ├── repository/
 │ │ ├── service/
 │ │ └── PortfolioBackendApplication.java
 │ └── resources/
 │ ├── application.properties
-
+```
 
 ## 🌐 API Endpoints
 
@@ -41,9 +41,11 @@ src/
   "name": "Jane Doe",
   "email": "jane@example.com",
   "message": "Loved your projects!"
-}
-🧪 Running Locally
-Make sure you have PostgreSQL running and update application.properties accordingly.
+} 
+```
+
+## 🧪 Running Locally
+Please make sure you have PostgreSQL running and update application.properties as needed.
 
 
 git clone https://github.com/NoemiDR24/Noemi-Portfolio-Backend.git
@@ -58,7 +60,7 @@ Send contact form messages via email (e.g., using Mailgun or SendGrid).
 
 Admin dashboard for managing messages and projects.
 
-Authentication for editing project list (optional).
+Authentication for editing the project list (optional).
 
 ## 🤝 Contact
 You can reach me via the contact form on my portfolio site or on [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/noemidelgadilloroldan/).
